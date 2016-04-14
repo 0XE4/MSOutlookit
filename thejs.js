@@ -3,37 +3,37 @@ var noTaskbar = 1;
 var alwaysHideNSFW = true;
 
 var randomNames = [
-	'Rick Deckard - HR',
-	'Pickle Dickle - Dance Engineer',
-	'Korben Dallas - Transportation',
-	'Danny Ocean - Talent Acquisition',
-	'Cha Tae-sik - Global',
-	'Homer Hickam - Aeronautics',
-	'Ben Wade - Management',
-	'Jon Osterman - R&D',
-	'Vincent Freeman - Astronautics',
-	'Llewelyn Moss - Agriculture',
-	'Richard Winters - Operations',
-	'Lewis Nixon - Operations',
-	'George Luz - Operations',
-	'Larry Compton - Operations',
-	'Ronald Speirs - Operations',
-	'Eric Mayme - Headhunting',
-	'Irene Cassini - Astronautics', 
-	'Sam Bell - minerals',
-	'Gerty - Automation',
-	'Edward Blake - Morale Department',
-	'Dan Evans - Agriculture',
-	'Charlie Prince - Internal Affairs',
-	'Quentin - Aeronautics',
-	'Jeong So-mi - Intern',
-	'Bryan Mills - Retainment Department',
-	'Rusty Ryan - Operations',
-	'Linus Caldwell - Reconnaissance',
-	'Jean-Baptiste Emanuel Zorg - VP',
-	'Father Vito Cornelius - Legacy',
-	'Ruby Rhod - Marketing',
-	'Chief John Anderton - Market Prediction'
+	'Rick Deckard -',
+	'Pickle Dickle -',
+	'Korben Dallas -',
+	'Danny Ocean -',
+	'Cha Tae-sik -',
+	'Homer Hickam -',
+	'Ben Wade -',
+	'Jon Osterman -',
+	'Vincent Freeman -',
+	'Llewelyn Moss -',
+	'Richard Winters -',
+	'Lewis Nixon -',
+	'George Luz -',
+	'Larry Compton -',
+	'Ronald Speirs -',
+	'Eric Mayme -',
+	'Irene Cassini -', 
+	'Sam Bell -',
+	'Gerty -',
+	'Edward Blake -',
+	'Dan Evans -',
+	'Charlie Prince -',
+	'Quentin -',
+	'Jeong So-mi -',
+	'Bryan Mills -',
+	'Rusty Ryan -',
+	'Linus Caldwell -',
+	'Jean-Baptiste Emanuel -',
+	'Father Vito Cornelius -',
+	'Ruby Rhod -',
+	'Chief John Anderton -'
 	
 	];
 
@@ -286,7 +286,7 @@ function myStory(parentJson,folder,addToDom)
 	
 	//first make the HTML for the preview
 	//Im sure there's a better way to do this but who knows...
-	var previewHTML = '<div id="%id" class="anemail emailunread"><div class="emailicon"></div><div class="emailiconright"></div><div class="emailpreview"><div class="emailname">%randomname (%author)</div><div class="emailtitle">(RE:^%score)  %title</div></div></div>';
+	var previewHTML = '<div id="%id" class="anemail emailunread"><div class="emailicon"></div><div class="emailiconright"></div><div class="emailpreview"><div class="emailname">%randomname %author</div><div class="emailtitle">(RE:^%score)  %title</div></div></div>';
 	//replace all the necessary things
 	var name = getRandomName();
 	var author = rootJson.author;
