@@ -8,7 +8,7 @@ _gaq.push(['_trackPageview']);
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
-var noTaskbar = 0;
+var noTaskbar = 1;
 
 var alwaysHideNSFW = true;
 
