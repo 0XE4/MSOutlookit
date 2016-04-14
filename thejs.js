@@ -1,20 +1,10 @@
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-37500646-2']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-
 var noTaskbar = 1;
 
 var alwaysHideNSFW = true;
 
 var randomNames = [
 	'Rick Deckard - HR',
-	'James Bond - Operations',
+	'Pickle Dickle - Dance Engineer',
 	'Korben Dallas - Transportation',
 	'Danny Ocean - Talent Acquisition',
 	'Cha Tae-sik - Global',
@@ -412,10 +402,10 @@ function commentsCallback(storyJSON)
 	//imgur, lynx, youtube, etc
 	story.bodyHTML = unEncode(story.bodyHTML);
 	//add the upvote and reply for the story
-	story.bodyHTML += '<div class="uparrow storyup" id="u' + theStoryID + '"></div>';
-     	story.bodyHTML += '<div class="downarrow storydown" id="d' + theStoryID + '"></div>';
-	story.bodyHTML += '<a id="r' + theStoryID + '" href="javascript:void(0)" class="textreplybutton storyreply">Reply to the Link</a>';
-	story.bodyHTML += '<div class="storycommentline"></div>';
+	//story.bodyHTML += '<div class="uparrow storyup" id="u' + theStoryID + '"></div>';
+    // 	story.bodyHTML += '<div class="downarrow storydown" id="d' + theStoryID + '"></div>';
+	//story.bodyHTML += '<a id="r' + theStoryID + '" href="javascript:void(0)" class="textreplybutton storyreply">Reply to the Link</a>';
+	//story.bodyHTML += '<div class="storycommentline"></div>';
 	
 	//populate comments
 	var commentsRoot = storyJSON[1].data.children;
@@ -1294,17 +1284,18 @@ $(document).ready(function(){
 	//add the folder
 	main_inbox = makeFolder('Front Page');
 	makeFolder('gaming');
-	makeFolder('pics');
+	makeFolder('talesfromtechsupport');
 	makeFolder('askreddit');
 	makeFolder('reddit.com');
-	makeFolder('funny');
+	makeFolder('hearthstone');
 	makeFolder('iama');
-	makeFolder('wtf');
+	makeFolder('LifeProTips');
+	makeFolder('sysadmin');
 
 	//load inbox
 	$('#folder_FrontPage').parent().addClass('foldwraphi');
 	folderClick('folder_FrontPage');
-	makeSoftpopup('Welcome! If you are a lawyer, this is no way affiliated with Microsoft or trying to replicate the functionality of MS Outlook. Not like that will stop you from ruining the party though :P');
+	//makeSoftpopup('Welcome! If you are a lawyer, this is no way affiliated with Microsoft or trying to replicate the functionality of MS Outlook. Not like that will stop you from ruining the party though :P');
 
 	//some events that never need re-doing
 
