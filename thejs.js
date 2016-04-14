@@ -458,7 +458,7 @@ function makeCommentHeader(score, author, body_html,id)
 	commentsHTML += '<div class="uparrow" id="u' + id + '"></div><div class="downarrow" id="d' + id + '"></div>';
 	commentsHTML += '<div class="authorandstuff showhover">';
 	commentsHTML += '<span class="score">' + score + '</span> <span class="commentauthor">' + author + '</span>';
-	commentsHTML += '  <a id="r' + id + '" href="javascript:void(0)" class="textreplybutton"> Reply</a>';
+	//commentsHTML += '  <a id="r' + id + '" href="javascript:void(0)" class="textreplybutton"> Reply</a>';
 	commentsHTML += '</div>';
 	commentsHTML += '<div class="commentbody">' + body_html + '</div>';
 	return commentsHTML;
