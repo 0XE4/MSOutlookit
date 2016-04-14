@@ -18,7 +18,7 @@ var randomNames = [
 	'George Luz - Operations',
 	'Larry Compton - Operations',
 	'Ronald Speirs - Operations',
-	'Anton Chigurh - Headhunting',
+	'Eric Mayme - Headhunting',
 	'Irene Cassini - Astronautics', 
 	'Sam Bell - minerals',
 	'Gerty - Automation',
