@@ -302,7 +302,7 @@ function myStory(parentJson,folder,addToDom)
 	{
 		if(!alwaysHideNSFW || true)
 		{
-			this.title = this.title + '<b><font style="color:red"> NSFW</font></b>';
+			this.title = this.title + '<b><font style="color:#a32020"> NSFW</font></b>';
 		}
 	}
 	
