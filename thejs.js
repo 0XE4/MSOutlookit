@@ -956,7 +956,7 @@ function updateClock()
 	var dateString = String(month) + '/' + String(dayOfMonth) + '/' + String(year);
 	var timeString = String(hour) + ':' + minuteString + ' ' + amppm;
 	
-	$('.clockholder').html(timeString + '<br/>' + dayOfWeekString + '<br/>' + dateString);
+	$('.clockholder').html(timeString + '<br/>' + dateString);
 	
 	var secondsToWait = 60 - d.getSeconds();
 	
