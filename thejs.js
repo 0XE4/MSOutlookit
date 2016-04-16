@@ -1022,7 +1022,7 @@ function displayFolder(folder_name)
 			globalFolderDict[folder_name].emailDict[key].addToArea();
 		}
 		//also, add the moar button
-		$('#previewarea').append('<input type="buttone" value="More Emails" onclick="moarButton()" >');
+		$('#previewarea').append('<input type="button" value="More Emails" onclick="moarButton()" >');
 
 		onReload();
 	}
