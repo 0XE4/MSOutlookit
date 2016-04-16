@@ -792,7 +792,7 @@ function showTaskbar()
 	onResize();
 	$('.clockholder').show();
 	
-	$('.bottombar').css('bottom','60px');
+	$('.bottombar').css('bottom','40px');
 	$('.leftcollower').css('bottom','80px');
 }
 
