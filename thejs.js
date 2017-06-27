@@ -1283,14 +1283,15 @@ $(document).ready(function(){
 	//attempt to add emails
 	//add the folder
 	main_inbox = makeFolder('Front Page');
-	makeFolder('gaming');
-	makeFolder('talesfromtechsupport');
 	makeFolder('askreddit');
-	makeFolder('reddit.com');
+	makeFolder('gaming');
 	makeFolder('hearthstone');
 	makeFolder('iama');
 	makeFolder('LifeProTips');
+	makeFolder('Overwatch');
 	makeFolder('sysadmin');
+	makeFolder('talesfromtechsupport');
+	makeFolder('todayilearned');
 
 	//load inbox
 	$('#folder_FrontPage').parent().addClass('foldwraphi');
