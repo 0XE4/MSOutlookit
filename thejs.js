@@ -1292,6 +1292,7 @@ $(document).ready(function(){
 	makeFolder('sysadmin');
 	makeFolder('talesfromtechsupport');
 	makeFolder('todayilearned');
+	makeFolder('tumblr');
 
 	//load inbox
 	$('#folder_FrontPage').parent().addClass('foldwraphi');
