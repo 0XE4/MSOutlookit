@@ -1284,6 +1284,7 @@ $(document).ready(function(){
 	//add the folder
 	main_inbox = makeFolder('Front Page');
 	makeFolder('askreddit');
+	makeFolder('customhearthstone');
 	makeFolder('gaming');
 	makeFolder('hearthstone');
 	makeFolder('iama');
